@@ -1,0 +1,14 @@
+{{ extends 'global/Page.html' }}
+{{ block title }}Title{{ endblock }}
+
+{{ block content }}
+
+Thank you for contacting us.
+Here is what you provided:
+Name: {{player.Name}}
+Email: {{player.Email}}
+Question: {{player.Question}}
+
+{{ next_button }}
+
+{{ endblock }}
